@@ -1,0 +1,779 @@
+Settings:
+  OffSlotSecondary: SECUNDARIA EN LA MANO IZQUIERDA
+  ShowChatMsgs: MOSTRAR MENSAJES DE CHAT
+  ShowJoinQuitMsgs: MOSTRAR ENTRADAS/SALIDAS DE JUGADORES
+  ShowItemUnlockedMsgs: MOSTRAR ALERTAS DE ITEMS DESBLOQUEADOS
+  ShowDeathMsgs: MOSTARAR NOTIFICACIONES DE MUERTES
+  ShowTrailInGame: MOSTRAR RASTRO DE JUGADOR (VANIDAD) EN PARTIDAS
+  ShowXpMsgs: MOSTRAR NOTIFICACIONES DE XP
+  ShowLevelUpMsgs: MOSTRAR NOTIFICACIONES CUANDO SUBAS DE NIVEL
+  GUITitle: AJUSTES
+InfoGUI:
+  ItemName: INFORMACIÓN
+  PlayerName: 'Nombre: %data%'
+  Tag: 'Tag: %data%'
+  Rank: 'Rango: %data%'
+  Title: 'Título: %data%'
+  Prestige: 'Prestigio: %data%'
+  Xp: 'XP: %data%'
+  Level: 'Nivel: %data%'
+  Coins: 'Monedas: %data%'
+  Votes: 'Votos: %data%'
+  Language: 'Idioma: %data%'
+  FirstJoin: 'Primer ingreso al servidor: %data%'
+Prestige:
+  Prestiged: Te has prestigiado a %data% de prestigio.
+  AlreadyMaxPrestige: Ya tienes el prestigio máximo.
+  MustBeLobby: Solo puedes prestigiarte en los lobbys.
+  NotMaxLevel: Tienes que ser nivel 72 para poder prestigiarte.
+ProfileGUI:
+  ItemName: PERFIL
+  GUITitle: PERFIL
+  LoadoutName: CARGA
+  LoadoutLore: Maneja tu carga
+  ClothingName: VESTIMENTA
+  ClothingLore: Maneja tu guardarropa
+  TrailName: RASTROS (VANIDAD)
+  TrailLore: Maneja tus rastros de jugador
+  SettingsName: CONFIGURACIÓN
+  SettingsLore: Configura tu modo de juego
+  StatsName: ESTADÍSTICAS
+  StatsLore: Ve tus estadísticas de juego
+  PrestigeName: PRESTIGIO
+  PrestigeLore: Empezar por encima del nivel 0
+  WrongArgs: Argumentos erróneos, teclea /profile
+Stats:
+  GUITitle: ESTADÍSTICAS
+  NoAccess: Tienes que ser premium para poder ver las estadísticas de otros jugadores.
+  NotInDatabase: '%data% no es un jugador existente.'
+  WrongArgs: Argumentos erróneos, teclea /stats o /stats <jugador>
+  NoStatsAvailable: Aún no tenemos datos que mostrar.
+  Kills: 'Kills totales: '
+  Deaths: 'Muertes totales: '
+  Suicides: 'Suicidios totales: '
+  KDR: 'Media de Kills/Muertes: '
+  Wins: 'Total de partidas ganadas: '
+  Losses: 'Total de partidas perdidas: '
+  Draws: 'Total de partidas empatadas: '
+  WLR: 'Media de Ganadas/Perdidas: '
+  FirstBloods: 'Total de primeras sangres: '
+  Paybacks: 'Total de venganzas: '
+  Headshots: 'Total de headshots: '
+  Quits: 'Total de partidas abandonadas: '
+  Matches: 'Total de partidas jugadas: '
+  LongestBowKill: 'Kill con arco más lejana(bloques): '
+  HighestKillStreak: 'Racha de kills más alta: '
+  HighestWinStreak: 'Racha de victorias más alta: '
+  XpEarned: 'Total de XP ganada: '
+  CoinsEarned: 'Total de monedas ganadas: '
+  FlagsCaptured: 'Total de banderas capturadas: '
+  FlagsRescued: 'Total de banderas rescatadas: '
+  FlagsScored: 'Total de banderas anotadas: '
+  FlagsDropped: 'Total de banderas perdidas (durante el camino): '
+  FlagSDR: 'Media de banderas Anotadas/Perdidas: '
+  FlagHoldersKilled: 'Total de poseedores de banderas matados: '
+  CurrentWinStreak: 'Actual racha de victorias: '
+  PointsCaptured: 'Total de puntos capturados: '
+  BombsDefused: 'Total de bombas desactivadas: '
+  PlayersInfected: 'Total de jugadores infectados: '
+  TimesInfected: 'Total de veces infectado: '
+  YourTeamDeathmatchStats: TUS ESTADÍSTICAS DE TEAM DEATHMATCH
+  TeamDeathmatchGUIName: ESTADÍSTICAS DE TEAM DEATHMATCH
+  YourDominationStats: TUS ESTADÍSTICAS DE DOMINATION
+  DominationGUIName: ESTADÍSTICAS DE DOMINATION
+  YourInfectedStats: TUS ESTADÍSTICAS DE INFECTED
+  InfectedGUIName: ESTADÍSTICAS DE INFECTED
+  YourFreeForAllStats: TUS ESTADÍSTICAS DE FREE FOR ALL
+  FreeForAllGUIName: ESTADÍSTICAS DE FREE FOR ALL
+  YourGlobalStats: TUS ESTADÍSTICAS GLOBALES
+  GlobalGUIName: ESTADÍSTICAS GLOBALES
+  YourCaptureTheFlagStats: TUS ESTADÍSTICAS DE CAPTURA LA BANDERA
+  CaptureTheFlagGUIName: ESTADÍSTICAS DE CAPTURA LA BANDERA
+  Snipes: 'Total de snipes: '
+  CloseOnes: 'Total de carcas: '
+  BulletProofs: 'Total a pruebas de bala: '
+  BowKills: 'Total de kills con arco: '
+  SuicideAssists: 'Total de asistencias suicidas: '
+Primary:
+  GUITitle: PRIMARIA
+  NotUnlocked: Aún no tienes esta arma primaria desbloqueada.
+  StoneSword:
+    Name: ESPADA DE PIEDRA
+    Lore: Espada de piedra
+    LoreLocked: Desbloqueada en el nivel 0
+  WoodSword:
+    Name: ESPADA DE MADERA
+    Lore: Espada de madera (Knockback 1)
+    LoreLocked: Desbloqueada en el nivel 18
+  GoldSword:
+    Name: ESPADA DE ORO
+    Lore: Espada de oro (Knockback 2)
+    LoreLocked: Desbloqueada en el nivel 31
+  Stone2Sword:
+    Name: ESPADA DE PIEDRA 2
+    Lore: Espada de piedra (Knockback 1)
+    LoreLocked: Desbloqueada en el nivel 45
+  IronSword:
+    Name: ESPADA DE HIERRO
+    Lore: Espada de hierro
+    LoreLocked: Desbloqueada en el nivel 67
+Secondary:
+  GUITitle: SECUNDARIA
+  NotUnlocked: Aún no tienes esta secundaria debloqueada.
+  StandardBow:
+    Name: ARCO ESTÁNDAR
+    Lore: Arco con 16 flechas
+    LoreLocked: Desbloqueado en el nivel 0
+  PunchBow:
+    Name: ARCO DE EMPUJE
+    Lore: Arco con 12 flechas y Knockback 1
+    LoreLocked: Desbloqueado en el nivel 3
+  Shield:
+    Name: PROTECCIÓN
+    Lore: Protección
+    LoreLocked: Desbloqueado en el nivel 10
+  BlindBow:
+    Name: ARCO DE CEGUERA
+    Lore: Arco con 8 flechas y efecto de ceguera (5 segundos)
+    LoreLocked: Desbloqueado en el nivel 17
+  SlowBow:
+    Name: ARCO DE LENTITUD
+    Lore: Arco con 8 flechas y efecto de lentitud (5 segundos)
+    LoreLocked: Desbloqueado en el nivel 28
+  ConfusionBow:
+    Name: ARCO DE CONFUSIÓN
+    Lore: Arco con 8 flechas y efecto de confusión (5 segundos)
+    LoreLocked: Desbloqueado en el nivel 39
+  Punch2Bow:
+    Name: ARCO DE EMPUJE 2
+    Lore: Arco con 12 flechas y Knockback 2
+    LoreLocked: Desbloqueado en el nivel 57
+  PowerBow:
+    Name: ARCO DE DAÑO
+    Lore: Arco con 6 flechas que hace daño extra
+    LoreLocked: Desbloqueado en el nivel 71
+Equipment:
+  GUITitle: EQUIPAMENTA
+  NotUnlocked: Aún no tienes esta equipamenta desbloqueada.
+  HealthDrink:
+    Lore: Efecto de salud instantánea
+    LoreLocked: Desbloqueada en el nivel 0
+    Name: POCIÓN DE SALUD
+  RegenDrink:
+    Lore: Efecto de regeneración
+    LoreLocked: Desbloqueada en el nivel 6
+    Name: POCIÓN DE REGENERACIÓN
+  HealthSplash:
+    Lore: Efecto de salud estantánea
+    LoreLocked: Desbloqueada en el nivel 17
+    Name: POCIÓN DE SALUD ARROJADIZA
+  RegenSplash:
+    Lore: Efecto de regeneración
+    LoreLocked: Desbloqueada en el nivel 25
+    Name: POCIÓN DE REGENERACIÓN ARROJADIZA
+  SlownessSplash:
+    Lore: Efecto de lentitud
+    LoreLocked: Desbloqueada en el nivel 36
+    Name: POCIÓN DE LENTITUD ARROJADIZA
+  DamageSplash:
+    Lore: Efecto de daño instantáneo
+    LoreLocked: Desbloqueada en el nivel 50
+    Name: POCIÓN DE DAÑO ARROJADIZA
+  NauseaLingering:
+    Lore: Efecto de náuseas
+    LoreLocked: Desbloqueada en el nivel 65
+    Name: POCIÓN DE NÁUSEAS PROLONGADAS
+Perks:
+  GUITitle: VENTAJAS
+  NotUnlocked: Aún no tienes esta ventaja desbloqueada.
+  Ammo0Name: MUNICIÓN MÁXIMA
+  Ammo0Lore: Desbloqueada en el nivel 7
+  Ammo1Name: '%50 MUNICIÓN MÁXIMA'
+  Ammo1Lore: Mejora en el nivel 42
+  Ammo2Name: '%100 MUNICIÓN MÁXIMA'
+  Ammo2Lore: Mejora en el nivel 62
+  Ammo3Name: '%150 MUNICIÓN MÁXIMA'
+  Ammo3Lore: Todas las mejoras aplicadas
+  Speed0Name: VELOCIDAD MÁXIMA
+  Speed0Lore: Desbloqueada en el nivel 21
+  Speed1Name: '%10 VELOCIDAD MÁXIMA'
+  Speed1Lore: Mejora en el nivel 47
+  Speed2Name: '%20 VELOCIDAD MÁXIMA'
+  Speed2Lore: Mejora en el nivel 66
+  Speed3Name: '%30 VELOCIDAD MÁXIMA'
+  Speed3Lore: Todas las mejoras aplicadas
+  Health0Name: SALUD MÁXIMA
+  Health0Lore: Desbloqueada en el nivel 29
+  Health1Name: '%10 SALUD MÁXIMA'
+  Health1Lore: Mejora en el nivel 53
+  Health2Name: '%20 SALUD MÁXIMA'
+  Health2Lore: Mejora en el nivel 68
+  Health3Name: '%30 SALUD MÁXIMA'
+  Health3Lore: Todas las mejoras aplicadas
+LoadoutGUI:
+  GUITitle: CARGA
+  PrimaryName: ARMA PRIMARIA
+  PrimaryLore: Escoje tu arma primaria aquí
+  SecondaryName: ARMA SECUNDARIA
+  SecondaryLore: Escoje tu arma secundaria aquí
+  EquipmentName: EQUIPAMENTA
+  EquipmentLore: Escoje tu equipamenta aquí
+  PerkName: VENTAJAS
+  PerkLore: Escoje tu ventaja aquí
+ClothingGUI:
+  GUITitle: VESTIMENTA
+  HatName: CASCOS
+  HatLore: Escoje tu casco aquí
+  ShirtName: PERCHERAS
+  ShirtLore: Escoje tu perchera aquí
+  PantsName: PANTALONES
+  PantsLore: Escoje tus pantalones aquí
+  BootsName: BOTAS
+  BootsLore: Escoje tus botas aquí
+TrailGUI:
+  GUITitle: PARTÍCULAS DE RASTRO (VANIDAD)
+  ArrowTrail:
+    Name: RASTROS DE PARTÍCULAS DE ARCO
+    Lore: Escoje el rastro de tus flechas aquí
+  PlayerTrail:
+    Name: RASTROS DE PARTÍCULAS DE JUGADOR
+    Lore: Escoje tu vanidad aquí
+ArrowTrails:
+  GUITitle: RASTRO DE ARCO
+  DripWater: GOTAS DE AGUA
+  DripLava: GOTAS DE LAVA
+  FallingDust: POLVO
+  Heart: CORAZÓN
+  Note: NOTA
+  Redstone: REDSTONE
+  ThunderCloud: NUBE
+  Green: VERDE
+PlayerTrails:
+  GUITitle: RASTRO DE JUGADOR
+  Heart: CORAZÓN
+  ThunderCloud: NUBE
+  Magic: MÁGICO
+  Colors: COLORES
+  Clouds: NUBES
+  Witch: BRUJA
+  Ender: ENDER
+  Green: VERDE
+  Spark: CHISPA
+  Flame: LLAMA
+  White: BLANCO
+  Note: NOTA
+  Water: AGUA
+  Lava: LAVA
+  Crit: CRÍTICO
+  Smoke: HUMO
+  Spell: HECHIZO
+  Enchant: ENCANTAMIENTO
+  Slime: SLIME
+  Snowball: BOLA DE NIEVE
+  Void: VACÍO
+  Pop: EXPLOSIÓN
+  Rainbow: ARCO IRIS
+Hats:
+  GUITitle: CASCOS
+  Aqua: AQUA
+  Black: NEGRO
+  Blue: AZUL
+  Fuchsia: FÚCSIA
+  Gray: GRIS
+  Green: VERDE
+  Lime: VERDE LIMA
+  Maroon: GRANATE
+  Navy: AZUL MARINO
+  Olive: ACEITUNA
+  Orange: NARANJA
+  Purple: MORADO
+  Red: ROJO
+  Silver: PLATA
+  Teal: VERDE AZULADO
+  White: BLANCO
+  Yellow: AMARILLO
+  Brown: MARRÓN
+  Workbench: MESA DE CRAFTEO
+  Chest: COFRE
+  Jukebox: TOCADISCOS
+  Furnace: HORNO
+  Dispenser: DISPENSADOR
+  Piston: PISTÓN
+  RedstoneBlock: BLOQUE DE REDSTONE
+  Hopper: COMPARADOR
+  RedstoneLamp: LÁMPARA DE REDSTONE
+  Dropper: SOLTADOR
+  Enderportal: PORTAL DEL ENDER
+  SlimeBlock: BLOQUE DE SLIME
+  Observer: OBSERVADOR
+  Cauldron: CALDERA
+  Cactus: CACTUS
+  Anvil: YUNQUE
+  EnchantmentTable: TABLA DE ENCANTAMIENTOS
+  Enderchest: COFRE DE ENDER
+  Pumpkin: CALABAZA
+  Endrod: ENDROD
+  Beacon: FARO
+  StickyPiston: PISTÓN PEGAJOSO
+  HayBlock: BLOQUE DE HENO
+  Lever: PALANCA
+  Tnt: TNT
+Shirts:
+  GUITitle: PERCHERAS
+  Aqua: AQUA
+  Black: NEGRA
+  Blue: AZUL
+  Fuchsia: FÚCSIA
+  Gray: GRIS
+  Green: VERDE
+  Lime: VERDE LIMA
+  Maroon: GRANATE
+  Navy: AZUL MARINO
+  Olive: ACEITUNA
+  Orange: NARANJA
+  Purple: MORADO
+  Red: ROJO
+  Silver: PLATA
+  Teal: VERDE AZULADO
+  White: BLANCO
+  Yellow: AMARILLO
+  Brown: MARRÓN
+Pants:
+  GUITitle: PANTALONES
+  Aqua: AQUA
+  Black: NEGRA
+  Blue: AZUL
+  Fuchsia: FÚCSIA
+  Gray: GRIS
+  Green: VERDE
+  Lime: VERDE LIMA
+  Maroon: GRANATE
+  Navy: AZUL MARINO
+  Olive: ACEITUNA
+  Orange: NARANJA
+  Purple: MORADO
+  Red: ROJO
+  Silver: PLATA
+  Teal: VERDE AZULADO
+  White: BLANCO
+  Yellow: AMARILLO
+  Brown: MARRÓN
+Shoes:
+  GUITitle: ZAPATOS
+  Aqua: AQUA
+  Black: NEGRA
+  Blue: AZUL
+  Fuchsia: FÚCSIA
+  Gray: GRIS
+  Green: VERDE
+  Lime: VERDE LIMA
+  Maroon: GRANATE
+  Navy: AZUL MARINO
+  Olive: ACEITUNA
+  Orange: NARANJA
+  Purple: MORADO
+  Red: ROJO
+  Silver: PLATA
+  Teal: VERDE AZULADO
+  White: BLANCO
+  Yellow: AMARILLO
+  Brown: MARRÓN
+Nickname:
+  NoAccess: Tienes que ser premium para cambiar tu nick.
+  Removed: Has quitado tu nick.
+  SameNickname: Ya tienes el nick %data%.
+  WrongLength: Tu nick no puede ser más largo de 8 caracteres.
+  WrongCharacters: Tu nick solo puede contener números y letras.
+  Set: Tu nick ha sido cambiado a %data%.
+  WrongArgs: Argumentos erróneos, teclea /nick <nick>
+  RemoveWrongArgs: Argumentos erróneos, teclea /nickremove
+Tag:
+  NoAccess: Tienes que ser premium para cambiar tu tag.
+  WaitForLobby: No puedes cambiar tu tag en medio de una partida.
+  Removed: Has quitado tu tag.
+  SameTag: Ya tienes el tag %data%.
+  WrongLength: Tu tag no puede ser más largo de 5 caracteres.
+  WrongCharacters: Tu tag solo puede contener números y letras.
+  Set: Tu tag ha sido cambiado a %data%.
+  WrongArgs: Argumentos erróneos, teclea /tag <tag>
+  RemoveWrongArgs: Argumentos erróneos, teclea /tagremove
+MapVote:
+  NoAccess: No tienes permitido votar mapas.
+  GUITitle: MAPAS
+  ItemName: Votar un mapa
+  Selected: YA SELECCIONADO
+  VoteCount: 'Votos: '
+  MapName: 'Mapa: '
+  MapAuthor: 'Constructor(es): '
+  Starting: 'La partida empezará en el mapa %data%.'
+  GUIName: MAPAS
+  Closed: 'La partida ya está empezando en el mapa %data%.'
+  CantChangeVote: No tienes permitido cambiar tu voto más veces.
+  AlreadyVotedForMap: 'Ya has votado para el mapa %data%.'
+  RandomMap: MAPA ALEATORIO
+  NextMap: SIGUIENTE MAPA
+  PreviousMap: ANTERIOR MAPA
+Servers:
+  PlayersOnline: 'Jugadores online: %data%'
+  LobbyName: LOBBY
+  LobbyLore: Lobby principal.
+  FreeForAllName: FREE FOR ALL
+  FreeForAllLore: Gana puntos eliminando a otros jugadores. El primero en conseguir 30 puntos gana.
+  TeamDeathmatchName: TEAM DEATHMATCH
+  TeamDeathmatchLore: Gana puntos eliminando a jugadores enemigos. El primer equipo en conseguir 75 puntos gana.
+  CaptureTheFlagName: CAPTURA LA BANDERA
+  CaptureTheFlagLore: Gana puntos robando la bandera enemiga y después llevándola a tu base. El primer equipo en conseguir 5 banderas gana.
+  DominationName: DOMINATION
+  DominationLore: Captura y defiende los faros. El primer equipo en conseguir 1000 puntos gana.
+Lobby:
+  Header: Estás jugando en PLAY.MAZIKRO.COM
+  Footer: '¡Visita www.mazikro.com para foros, tienda, tablas y más!'
+  BossBar: Estás conectado en el LOBBY de PLAY.MAZIKRO.COM
+FreeForAll:
+  LobbyBossBar: Estás conectado en FREE FOR ALL de PLAY.MAZIKRO.COM
+  GameName: FREE FOR ALL
+  WaitingBar: Esperando a más jugadores
+  LackPlayers: El juego ha terminado por falta de jugadores.
+  StartTitle: '¡MÁTALOS A TODOS!'
+  GameStatus:
+    Winning: 'GANANDO'
+    Losing: 'PERDIENDO'
+  Result:
+    LateJoin: 'POR FAVOR, ESPERA'
+    LateJoinSub: 'LA PRÓXIMA PARTIDA EMPEZARÁ EN UNOS MOMENTOS'
+    Draw: 'EMPATE'
+    Win: 'VICTORIA'
+    Lose: 'DERROTA'
+    TimeLimit: 'TIEMPO LÍMITE EXCEDIDO'
+    ScoreLimit: 'PUNTUACIÓN MÁXIMA ALCANZADA'
+TeamDeathmatch:
+  LobbyBossBar: Estás conectado en TEAM DEATHMATCH de PLAY.MAZIKRO.COM
+  GameName: TEAM DEATHMATCH
+  WaitingBar: Esperando a más jugadores
+  LackPlayers: El juego ha terminado por falta de jugadores.
+  StartTitle: '¡MÁTALOS A TODOS!'
+  GameStatus:
+    Winning: 'GANANDO'
+    Losing: 'PERDIENDO'
+  Result:
+    LateJoin: 'POR FAVOR, ESPERA'
+    LateJoinSub: 'LA PRÓXIMA PARTIDA EMPEZARÁ EN UNOS MOMENTOS'
+    Draw: 'EMPATE'
+    Win: 'VICTORIA'
+    Lose: 'DERROTA'
+    TimeLimit: 'TIEMPO LÍMITE EXCEDIDO'
+    ScoreLimit: 'PUNTUACIÓN MÁXIMA ALCANZADA'
+CaptureTheFlag:
+  LobbyBossBar: Estás conectado en CAPTURA LA BANDERA de PLAY.MAZIKRO.COM
+  GameName: CAPTURA LA BANDERA
+  WaitingBar: Esperando a más jugadores
+  LackPlayers: El juego ha terminado por falta de jugadores.
+  StartTitle: '¡MÁTALOS A TODOS!'
+  GameStatus:
+    Winning: 'GANANDO'
+    Losing: 'PERDIENDO'
+  Result:
+    LateJoin: 'POR FAVOR, ESPERA'
+    LateJoinSub: 'LA PRÓXIMA PARTIDA EMPEZARÁ EN UNOS MOMENTOS'
+    Draw: 'EMPATE'
+    Win: 'VICTORIA'
+    Lose: 'DERROTA'
+    TimeLimit: 'TIEMPO LÍMITE EXCEDIDO'
+    ScoreLimit: 'PUNTUACIÓN MÁXIMA ALCANZADA'
+  Misc:
+    TeamCaptureEnemyFlag: 'HA CAPTURADO LA BANDERA ENEMIGA'
+    EnemyCaptureTeamFlag: 'HA CAPTURADO NUESTRA BANDERA'
+    TeamDropEnemyFlag: 'HA RETROCEDIDO AL ENEMIGO'
+    EnemyDropTeamFlag: 'HA SIDO RETROCEDIDO POR EL ENEMIGO'
+    TeamPickupDroppedTeamFlag: 'HA ASEGURADO NUESTRA BANDERA'
+    EnemyPickupDroppedEnemyFlag: 'HA ASEGURADO LA BANDERA ENEMIGA'
+    TeamBringEnemyFlagHome: 'HA ANOTADO UN PUNTO'
+    EnemyBringTeamFlagHome: 'HA ANOTADO UN PUNTO'
+Domination:
+  LobbyBossBar: Estás conectado en DOMINATION de PLAY.MAZIKRO.COM
+  GameName: DOMINATION
+  WaitingBar: Esperando a más jugadores
+  LackPlayers: El juego ha terminado por falta de jugadores.
+  StartTitle: '¡MÁTALOS A TODOS!'
+  GameStatus:
+    Winning: 'GANANDO'
+    Losing: 'PERDIENDO'
+  Result:
+    LateJoin: 'POR FAVOR, ESPERA'
+    LateJoinSub: 'LA PRÓXIMA PARTIDA EMPEZARÁ EN UNOS MOMENTOS'
+    Draw: 'EMPATE'
+    Win: 'VICTORIA'
+    Lose: 'DERROTA'
+    TimeLimit: 'TIEMPO LÍMITE EXCEDIDO'
+    ScoreLimit: 'PUNTUACIÓN MÁXIMA ALCANZADA'
+  Misc:
+    SecuringPointATeam: 'ESTÁ ASEGURANDO EL AZUL'
+    SecuringPointAEnemy: 'ESTÁ ASEGURANDO EL AZUL' 
+    CapturedPointATeam: 'HA ASEGURADO EL AZUL'
+    CapturedPointAEnemy: 'HA ASERURADO EL AZUL'
+    SecuringPointBTeam: 'ESTÁ ASEGURANDO EL ROSA'
+    SecuringPointBEnemy: 'ESTÁ ASEGURANDO EL ROSA'
+    CapturedPointBTeam: 'HA ASEGURADO EL ROSA'
+    CapturedPointBEnemy: 'HA ASEGURADO EL ROSA'
+    SecuringPointCTeam: 'ESTÁ ASEGURANDO EL NARANJA'
+    SecuringPointCEnemy: 'ESTÁ ASEGURANDO EL NARANJA'
+    CapturedPointCTeam: 'HA ASEGURADO EL NARANJA'
+    CapturedPointCEnemy: 'HA ASEGURADO EL NARANJA'
+Global:
+  Back: Ir atrás
+  SuicideMsg: Errores fueron cometidos
+  JoinMsg: '%data% se ha conectado'   
+  QuitMsg: '%data% se ha desconectado'
+  Scoreboard:
+    PRESTIGE: 'PRESRIGIO: '
+    XP: 'XP: '
+    LEVEL: 'NIVEL: '
+    COINS: 'MONEDAS: '
+    Killstreak: 'RACHA DE KILLS: '
+    Kills: 'KILLS: '
+    Deaths: 'MUERTES: ' 
+    KDR: 'KDR: '
+    LastKilledBy: 'NEMESIS: '
+    UnsecuredA: 'DESASEGURADO'
+    UnsecuredB: 'DESASEGURADO'
+    UnsecuredC: 'DESASEGURADO'
+    SecuredByA: 'ASEFURADO POR: '
+    SecuredByB: 'ASEGURADO POR: '
+    SecuredByC: 'ASEFURADO POR: '
+    PointA: 'AZUL: '
+    PointB: 'ROSA: '
+    PointC: 'NARANJA: '
+    Base1: 'EN BASE'
+    Base2: 'EN BASE'  
+    Away1: 'LEJOS'
+    Away2: 'LEJOS'
+    Flag1Team: 'BANDERA ALPHA:'
+    Flag1Enemy: 'BANDERA ALPHA:'
+    Flag2Team: 'BANDERA BETA:'
+    Flag2Enemy: 'BANDERA BETA:'
+    TakenBy1Team: '->'
+    TakenBy1Enemy: '->'
+    TakenBy2Team: '->'
+    TakenBy2Enemy: '->'
+  EndGameScoreboard:
+    MatchSummary: 'RESUMEN DE LA PARTIDA'
+    XPEarned: 'XP GANADA: '
+    CoinsEarned: 'MONEDAS GANADAS: '
+    Kills: 'KILLS: '
+    Deaths: 'MUERTES: '
+    KDR: 'MEDIA DE KILLS/MUERTES: '
+    PointsCaptured: 'PUNTOS CAPTURADOS: '
+    FlagsScored: 'BANDERAS ANOTADAS: '
+    FlagsRescued: 'BANDERAS RESCATADAS: '
+    FlagsDropped: 'BANDERAS PERDIDAS: '
+    FlagsCaptured: 'BANDERAS CAPTURADAS: '
+Unlocked:
+  Secondary: '¡HAS DESBLOQUEADO UNA NUEVA SECUNDARIA!'
+  PunchBow: ARCO DE EMPUJE
+  Equipment: '¡HAS DESBLOQUEADO NUEVA EQUIPAMENTA!'
+  DrinkRegenPotion: POCIÓN DE REGENERACIÓN
+  LingeringNauseaPotion: POCIÓN DE NÁUSEAS PROLONGADAS
+  SplashDamagePotion: POCIÓN DE DAÑO ARROJADIZA
+  SplashSlownessPotion: POCIÓN DE LENTITUD ARROJADIZA
+  SplashRegenPotion: POCIÓN DE REGENERACIÓN ARROJADIZA
+  SplashHealthPotion: POCIÓN DE SALUD ARROJADIZA
+  Perk: '¡HAS DESBLOQUEADO UNA NUEVA VENTAJA!'
+  MaxAmmo1: '%50 MUNICIÓN MÁXIMA'
+  Sheild: BLINDAJE
+  BlindBow: ARCO DE EMPUJE
+  Primary: '¡HAS DESBLOQUEADO UNA NUEVA PRIMARIA!'
+  WoodSword: ESPADA DE MADERA
+  MaxSpeed1: '%10 VELOCIDAD MÁXIMA'
+  SlowBow: ARCO DE LENTITUD
+  MaxHealth1: '%10 SALUD MÁXIMA'
+  GoldSword: ESPADA DE ORO
+  ConfusionBow: ARCO DE CONFUSIÓN
+  MaxAmmo2: '%100 MUNICIÓN MÁXIMA'
+  StoneSword2: ESPADA DE PIEDRA
+  MaxSpeed2: '%20 VELOCIDAD MÁXIMA'
+  MaxHealth2: '%20 SALUD MÁXIMA'
+  PunchBow2: ARCO DE EMPUJE
+  MaxAmmo3: '%150 MUNICIÓN MÁXIMA'
+  MaxSpeed3: '%30 VELOCIDAD MÁXIMA'
+  IronSword: ESPADA DE HIERRO
+  MaxHealth3: '%30 SALUD MÁXIMA'
+  PowerBow: ARCO DE POTENCIA
+Tutorial:
+  HowToPlay: CÓMO JUGAR
+  FreeForAll: Mata a jugadores con el nombre de usuario rojo y ganarás un punto por cada uno. Se el primer jugador en conseguir 30 puntos y ganarás.
+  TeamDeathmatch: Mata a jugadores con el nombre de usuario rojo y ganarás un punto por cada uno. Los jugadores con el nombre de usuario verde son tus compañeros. El primer equipo en conseguir 75 puntos gana.
+  Domination: Captura los faros de todo el mapa para ganar puntos. Después defiéndelos para que el otro equipo no los recupere. El primer equipo en conseguir 1000 puntos gana.
+  CaptureTheFlag: Captura la bandera enemiga y llévala a tu base para ganar un punto. Defiende tu bandera para que los enemigos  no te la roben. El primer equipo en robar 5 banderas gana.
+  Lobby: Haz click en la brújula para seleccionar una modalidad. Haz click en tu cabeza de jugador para modificar tu perfil.
+    A medida que vayas jugando vas a ir desbloqueando y mejorando nuevos objetos.
+KillSignature:
+  SuicideMsg: '¡TE HAS SUICIDADO!'
+  KilledMsg: '¡HAS MUERTO!'
+  RespawnMsg: Reapareciendo en %data% segundos
+Transfer:
+  ServerNull: No puedes unirte a este servidoe en estos momentos.
+  ServerFull: No puedes unirte a este servidor porque está lleno.
+Xp:
+  Promoted: '¡HAS SIDO PROMOVIDO!'
+  FirstBlood: FIRSTBLOOD +%data% XP
+  PayBack: VENGANZA +%data% XP
+  Killstreak: '%data% CADENA DE MUERTES +%data% XP' 
+  Snipe: SNIPE +%data% XP
+  Headshot: HEADSHOT +%data% XP
+  CloseOne: AJUSTADO +%data% XP
+  Kill: KILL +%data% XP
+  SuicideAssist: ASISTENCIA SUICIDA +%data% XP
+  FlagCapture: BANDERA CAPTURADA +%data% XP
+  FlagRescue: BANDERA RESCATADA +%data% XP
+  FlagScore: BANDERA ANOTADA +%data% XP
+  PointCapture: PUNTO CAPTURADO +%data% XP
+  StopCapture: DEFENSA +%data% XP
+  StartCapture: EMPEZANDO CAPTURA
+Vote:
+  Counted: '¡Has recibido una cantidad aleatoria de %data% por haber votado!'
+  WrongArgs: Argumentos erróneos, teclea /vote
+  Top: Vota para 1-100 monedas
+  Link1: https://www.planetminecraft.com/server/mazikro/vote/
+  Link2: https://minecraft-mp.com/server/204199/vote/
+  Link3: https://minecraftservers.biz/servers/142126/vote/
+  Link4: https://minecraftservers.org/vote/512972
+  Link5: https://topg.org/Minecraft/in-497935
+  Link6: https://top-minecraft-servers.com/server/mazikro/
+  Link7: https://www.trackyserver.com/server/mazikro-148085
+Help:
+  Top: Ayuda
+  Vote: Vota para conseguir monedas usando /vote
+  Navigator: Abrir la GUI de navegación con /navigator, /servers, /server
+  Lobby: Teletransportarse al lobby con /lobby, /hub
+  FreeForAll: Teletransportarse a Free for all /freeforall
+  TeamDeathmatch: Teletransportarse a team deathmatch /teamdeathmatch
+  CaptureTheFlag: Teletransportarse a Captura la bandera /capturetheflag
+  Domination: Teletransportarse a Domination /domination
+  Profile: Abrir la GUI de perfil /profile
+  Stats: Ve tus estadísticas /stats
+  StatsOther: Ve las estadísticas de otro jugador /stats <jugador>
+  Tag: Cambia el tag de tu clan /tag
+  TagRemove: Quita el tag de tu clan /tagremove
+  Nick: Cambia tu nick /nick <nick> 
+  NickRemove: Quita tu nick /nickremove
+  Help: Ayuda /help
+Navigator:
+  ItemName: SERVIDORES
+  GUITitle: SERVIDORES
+  AlreadyConnected: Ya estás conectado en este servidor.
+Donate:
+  NowPremium: No eres un miembro premium.
+  NowDefault: Ahora eres un miembro default.
+CoinShop:
+  Hologram: TIENDA
+  GUITitle: Tienda
+  Price: 'Precio: %data%'
+  NotEnough: 'Necesitas %data% monedas más para comprar este artículo.'
+  Owned: YA COMPRADO
+  AlreadyPurchased: Ya has comprado este artículo.
+  Purchased:
+    GlowAuraHat: 'Todos los cascos que lleves a partir de ahora van a brillar. Te quedan %data% monedas.'
+    GlowAuraShirt: 'Todas las percheras que lleves a partir de ahora van a brillar. Te quedan %data% monedas.'
+    GlowAuraPants: 'Todos los pantalones que lleves a partir de ahora ban a brillar. Te quedan %data% monedas.'
+    GlowAuraBoots: 'Todas las botas que lleves a partir de ahora van a brillar. Te quedan %data% monedas.'
+    GlowAuraPrimary: 'Todas las armas primarias que lleves a partir de ahora van a brillar. Te quedan %data% monedas.'
+    GlowAuraSecondary: 'Todas las armas secundarias que lleves a partir de ahora van a brillar. Te quedan %data% monedas.'
+  Enum:
+    GlowAuraHat: Todos los cascos que lleves van a brillar.
+    GlowAuraShirt: Todas las percheras que lleves van a brillar.
+    GlowAuraPants: Todos los pantalones que lleves van a brillar.
+    GlowAuraBoots: Todas las botas que lleves van a brillar.
+    GlowAuraPrimary: Todas las armas primarias que equipes van a brillar.
+    GlowAuraSecondary: Todas las armas secundariasnque equipes van a brillar.
+LangGUI:
+  Translator: TRADUCTOR
+  ItemName: MAZIKRO
+  GUITitle: MAZIKRO
+  AlreadyLang: You already have english language applied.
+  EnglishName: English
+  EnglishLore: Click to apply
+  SpanishName: EspaÃ±ol
+  SpanishLore: Haga clic para aplicar
+  ItalianName: Italiano
+  ItalianLore: Clicca per applicare
+  FrenchName: FranÃ§ais
+  FrenchLore: Cliquez pour appliquer
+  PortugueseName: PortuguÃªs
+  PortugueseLore: Clique para aplicar
+  DutchName: Nederlands
+  DutchLore: Klik om toe te passen
+PlayerAPI:
+  Titles:
+    '0': Recluta
+    '1': Soldado raso I
+    '2': Soldado raso II
+    '3': Soldado raso III
+    '4': Soldado de primer rango I
+    '5': Soldado de primer rango II
+    '6': Soldado de primer rango III
+    '7': Especialista I
+    '8': Especialista II
+    '9': Especialista III
+    '10': Corporal I
+    '11': Corporal II
+    '12': Corporal III
+    '13': Sargento I
+    '14': Sargento II
+    '15': Sargento III
+    '16': Sargento primero I
+    '17': Sargento primero II
+    '18': Sargento primero III
+    '19': Sargento de primera clase I
+    '20': Sargento de primera clase II
+    '21': Sargento de primera clase III
+    '22': Sargento maestre I
+    '23': Sargento maestre II
+    '24': Sargento maestre III
+    '25': Sargento primero I
+    '26': Sargento primero II
+    '27': Sargento primero III
+    '28': Sargento mayor I
+    '29': Sargento mayor II
+    '30': Sargento mayor III
+    '31': Suboficial I
+    '32': Suboficial II
+    '33': Suboficial III
+    '34': Jefe oficial I
+    '35': Jefe oficial II
+    '36': Jefe oficial III
+    '37': Sargento de comando I
+    '38': Sargento de comando II
+    '39': Saegento de comando III
+    '40': 2do teniente I
+    '41': 2do teniente II
+    '42': 2do teniente III
+    '43': 1er teniente I
+    '44': 1er teniente II
+    '45': 1er teniente III
+    '46': Capitán I
+    '47': Capitán II
+    '48': Capitán III
+    '49': Mayor I
+    '50': Mayof II
+    '51': Mayor III
+    '52': Coronel teniente I
+    '53': Coronel teniente II
+    '54': Coronel teniente III
+    '55': Coronel I
+    '56': Coronel II
+    '57': Coronel III
+    '58': General de brigada I
+    '59': General de brigada II
+    '60': General de brigada III
+    '61': General mayor I
+    '62': General mayor II
+    '63': General mayor III
+    '64': Teniente general I
+    '65': Teniente general II
+    '66': Teniente general III
+    '67': General I
+    '68': General II
+    '69': General III
+    '70': General de armada
+    '71': Comandante
+    '72': Jefe comandante
