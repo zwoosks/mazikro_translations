@@ -6,6 +6,7 @@ As you know, Mazikro is a MC network created by user and for users.
 So now, if you would like to help us and you didn't know how to do it, you can help us translating our yaml file to your language!
 
 *__Instructions / requisites__*
+
 _ Only translate the text, the variable has to be the same!
 - Be secure of yourself, if you feel that you won't be able to do it don't worry!
 - If you have any question, please contact us by Discord **Discord group: (https://discord.gg/7cGRURx)**
